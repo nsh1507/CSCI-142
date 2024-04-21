@@ -1,0 +1,1 @@
+MazeException: cannot have a north neighbor: (0,2)

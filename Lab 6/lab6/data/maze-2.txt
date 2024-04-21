@@ -1,0 +1,11 @@
+4 4
+--E- --EW -SEW ---W
+-SE- --EW NS-W -S--
+NS-- --E- NSEW N--W
+N-E- --EW N--W ----
+* 1,3
+4
+A 0,0
+B 3,0
+C 0,3
+D 3,3

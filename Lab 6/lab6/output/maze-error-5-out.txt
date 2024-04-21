@@ -1,0 +1,1 @@
+MazeException: columns must be greater than zero: -1

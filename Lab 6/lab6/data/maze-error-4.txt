@@ -1,0 +1,18 @@
+9 9
+-SE- --EW -S-W -S-- --EW --EW -S-W --E- -S-W
+NS-- NSE- N-EW N-EW -SEW ---W N-E- -SEW N--W
+NS-- N-E- -S-W -SE- N--W -SE- -S-W N-E- -S-W
+NS-- -SE- N--W NS-- -SE- NS-W N-E- --EW N--W
+NS-- NS-- --E- N--W NS-- NSE- ---W -SE- ---W
+NS-- N-E- -SEW --EW N--W N-E- --EW N-EW -S-W
+N-E- --EW N-EW -SEW ---W -SE- --EW -S-W NS--
+-SEW --EW ---W NSE- -S-W NSE- -S-W NS-- NS--
+N-E- --EW --EW N--W N-E- N--W N--- N-E- N--W
+* 4,6
+6
+A 4,8
+B 0,0
+C 0,7
+D 4,2
+E 7,2
+F 8,6

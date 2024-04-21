@@ -1,0 +1,1 @@
+MazeException: home position not specified!
