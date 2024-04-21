@@ -1,0 +1,5 @@
+RC_BOAT BlackPearl 4
+RC_BOAT TheORCA 10
+RC_BOAT Sharkbait 8
+RC_BOAT Pequod 12
+RC_BOAT HMS_Rose 20

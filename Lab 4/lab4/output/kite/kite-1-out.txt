@@ -1,0 +1,12 @@
+PLAYING(40): Toy{PC:100, N:Cometa, H:0, R:false, W:0.0}, Kite{C:RED, T:DELTA}
+	Flying the RED, DELTA kite Cometa
+PLAYING(23): Toy{PC:100, N:Cometa, H:40, R:false, W:2.0}, Kite{C:RED, T:DELTA}
+	Flying the RED, DELTA kite Cometa
+PLAYING(38): Toy{PC:100, N:Cometa, H:63, R:false, W:3.1500000000000004}, Kite{C:RED, T:DELTA}
+	Flying the RED, DELTA kite Cometa
+RETIRED: Toy{PC:100, N:Cometa, H:101, R:true, W:5.050000000000001}, Kite{C:RED, T:DELTA}
+Retired toys:
+	Toy{PC:100, N:Cometa, H:101, R:true, W:5.050000000000001}, Kite{C:RED, T:DELTA}
+Total toys: 1
+Total happiness: 101
+Average wear: 5.050000000000001

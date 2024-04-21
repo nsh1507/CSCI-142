@@ -1,0 +1,60 @@
+PLAYING(40): Toy{PC:300, N:BlackPearl, H:0, R:false, W:0.0}, BatteryPowered{BL:100, NB:4}, RCBoat{S:10}
+	BlackPearl races around at 10knots!
+PLAYING(23): Toy{PC:301, N:TheORCA, H:0, R:false, W:0.0}, BatteryPowered{BL:100, NB:10}, RCBoat{S:10}
+	TheORCA races around at 10knots!
+PLAYING(38): Toy{PC:302, N:Sharkbait, H:0, R:false, W:0.0}, BatteryPowered{BL:100, NB:8}, RCBoat{S:10}
+	Sharkbait races around at 10knots!
+PLAYING(34): Toy{PC:303, N:Pequod, H:0, R:false, W:0.0}, BatteryPowered{BL:100, NB:12}, RCBoat{S:10}
+	Pequod races around at 10knots!
+PLAYING(20): Toy{PC:304, N:HMS_Rose, H:0, R:false, W:0.0}, BatteryPowered{BL:100, NB:20}, RCBoat{S:10}
+	HMS_Rose races around at 10knots!
+PLAYING(45): Toy{PC:300, N:BlackPearl, H:40, R:false, W:10.0}, BatteryPowered{BL:56, NB:4}, RCBoat{S:15}
+	BlackPearl races around at 15knots!
+PLAYING(25): Toy{PC:301, N:TheORCA, H:23, R:false, W:10.0}, BatteryPowered{BL:67, NB:10}, RCBoat{S:15}
+	TheORCA races around at 15knots!
+PLAYING(28): Toy{PC:302, N:Sharkbait, H:38, R:false, W:10.0}, BatteryPowered{BL:54, NB:8}, RCBoat{S:15}
+	Sharkbait races around at 15knots!
+PLAYING(39): Toy{PC:303, N:Pequod, H:34, R:false, W:10.0}, BatteryPowered{BL:54, NB:12}, RCBoat{S:15}
+	Pequod races around at 15knots!
+PLAYING(43): Toy{PC:304, N:HMS_Rose, H:20, R:false, W:10.0}, BatteryPowered{BL:60, NB:20}, RCBoat{S:15}
+	HMS_Rose races around at 15knots!
+	DEPLETED:Toy{PC:304, N:HMS_Rose, H:20, R:false, W:10.0}, BatteryPowered{BL:0, NB:20}, RCBoat{S:15}
+	RECHARGED:Toy{PC:304, N:HMS_Rose, H:20, R:false, W:10.0}, BatteryPowered{BL:100, NB:20}, RCBoat{S:15}
+PLAYING(22): Toy{PC:300, N:BlackPearl, H:85, R:false, W:25.0}, BatteryPowered{BL:7, NB:4}, RCBoat{S:20}
+	BlackPearl races around at 20knots!
+	DEPLETED:Toy{PC:300, N:BlackPearl, H:85, R:false, W:25.0}, BatteryPowered{BL:0, NB:4}, RCBoat{S:20}
+	RECHARGED:Toy{PC:300, N:BlackPearl, H:85, R:false, W:25.0}, BatteryPowered{BL:100, NB:4}, RCBoat{S:20}
+RETIRED: Toy{PC:300, N:BlackPearl, H:107, R:true, W:45.0}, BatteryPowered{BL:100, NB:4}, RCBoat{S:25}
+PLAYING(22): Toy{PC:301, N:TheORCA, H:48, R:false, W:25.0}, BatteryPowered{BL:32, NB:10}, RCBoat{S:20}
+	TheORCA races around at 20knots!
+	DEPLETED:Toy{PC:301, N:TheORCA, H:48, R:false, W:25.0}, BatteryPowered{BL:0, NB:10}, RCBoat{S:20}
+	RECHARGED:Toy{PC:301, N:TheORCA, H:48, R:false, W:25.0}, BatteryPowered{BL:100, NB:10}, RCBoat{S:20}
+PLAYING(26): Toy{PC:302, N:Sharkbait, H:66, R:false, W:25.0}, BatteryPowered{BL:18, NB:8}, RCBoat{S:20}
+	Sharkbait races around at 20knots!
+	DEPLETED:Toy{PC:302, N:Sharkbait, H:66, R:false, W:25.0}, BatteryPowered{BL:0, NB:8}, RCBoat{S:20}
+	RECHARGED:Toy{PC:302, N:Sharkbait, H:66, R:false, W:25.0}, BatteryPowered{BL:100, NB:8}, RCBoat{S:20}
+PLAYING(32): Toy{PC:303, N:Pequod, H:73, R:false, W:25.0}, BatteryPowered{BL:3, NB:12}, RCBoat{S:20}
+	Pequod races around at 20knots!
+	DEPLETED:Toy{PC:303, N:Pequod, H:73, R:false, W:25.0}, BatteryPowered{BL:0, NB:12}, RCBoat{S:20}
+	RECHARGED:Toy{PC:303, N:Pequod, H:73, R:false, W:25.0}, BatteryPowered{BL:100, NB:12}, RCBoat{S:20}
+RETIRED: Toy{PC:303, N:Pequod, H:105, R:true, W:45.0}, BatteryPowered{BL:100, NB:12}, RCBoat{S:25}
+PLAYING(46): Toy{PC:304, N:HMS_Rose, H:63, R:false, W:25.0}, BatteryPowered{BL:100, NB:20}, RCBoat{S:20}
+	HMS_Rose races around at 20knots!
+RETIRED: Toy{PC:304, N:HMS_Rose, H:109, R:true, W:45.0}, BatteryPowered{BL:34, NB:20}, RCBoat{S:25}
+PLAYING(22): Toy{PC:301, N:TheORCA, H:70, R:false, W:45.0}, BatteryPowered{BL:100, NB:10}, RCBoat{S:25}
+	TheORCA races around at 25knots!
+PLAYING(26): Toy{PC:302, N:Sharkbait, H:92, R:false, W:45.0}, BatteryPowered{BL:100, NB:8}, RCBoat{S:25}
+	Sharkbait races around at 25knots!
+RETIRED: Toy{PC:302, N:Sharkbait, H:118, R:true, W:70.0}, BatteryPowered{BL:66, NB:8}, RCBoat{S:30}
+PLAYING(20): Toy{PC:301, N:TheORCA, H:92, R:false, W:70.0}, BatteryPowered{BL:68, NB:10}, RCBoat{S:30}
+	TheORCA races around at 30knots!
+RETIRED: Toy{PC:301, N:TheORCA, H:112, R:true, W:100.0}, BatteryPowered{BL:38, NB:10}, RCBoat{S:35}
+Retired toys:
+	Toy{PC:300, N:BlackPearl, H:107, R:true, W:45.0}, BatteryPowered{BL:100, NB:4}, RCBoat{S:25}
+	Toy{PC:303, N:Pequod, H:105, R:true, W:45.0}, BatteryPowered{BL:100, NB:12}, RCBoat{S:25}
+	Toy{PC:304, N:HMS_Rose, H:109, R:true, W:45.0}, BatteryPowered{BL:34, NB:20}, RCBoat{S:25}
+	Toy{PC:302, N:Sharkbait, H:118, R:true, W:70.0}, BatteryPowered{BL:66, NB:8}, RCBoat{S:30}
+	Toy{PC:301, N:TheORCA, H:112, R:true, W:100.0}, BatteryPowered{BL:38, NB:10}, RCBoat{S:35}
+Total toys: 5
+Total happiness: 551
+Average wear: 61.0
