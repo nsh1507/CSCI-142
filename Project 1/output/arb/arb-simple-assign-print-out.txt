@@ -1,0 +1,59 @@
+(ARB) prefix...
+@ 5
+@ 10
+= x 24
+= y 513
+= z -19
+@ z
+@ y
+@ x
+(ARB) infix...
+Print 5
+Print 10
+x = 24
+y = 513
+z = -19
+Print z
+Print y
+Print x
+(ARB) interpreting program...
+5
+10
+-19
+513
+24
+(ARB) Symbol table:
+x: 24
+y: 513
+z: -19
+(ARB) compiling program to tmp/TEMP.maq...
+(MAQ) Machine instructions:
+PUSH 5
+PRINT
+PUSH 10
+PRINT
+PUSH 24
+STORE x
+PUSH 513
+STORE y
+PUSH -19
+STORE z
+LOAD z
+PRINT
+LOAD y
+PRINT
+LOAD x
+PRINT
+(MAQ) Executing...
+5
+10
+-19
+513
+24
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+x: 24
+y: 513
+z: -19
+(MAQ) Instruction stack:
+	EMPTY

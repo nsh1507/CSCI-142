@@ -1,0 +1,53 @@
+(MAQ) Machine instructions:
+PUSH 1
+STORE a
+PUSH 3
+STORE b
+PUSH -4
+STORE c
+LOAD b
+NEG
+STORE negB
+LOAD b
+LOAD b
+MUL
+STORE bSquared
+PUSH 4
+LOAD a
+LOAD c
+MUL
+MUL
+STORE fourAC
+LOAD negB
+NEG
+LOAD bSquared
+LOAD fourAC
+SUB
+SQRT
+ADD
+STORE numerator
+PUSH 2
+LOAD a
+MUL
+STORE denominator
+LOAD numerator
+LOAD denominator
+DIV
+STORE result
+LOAD result
+PRINT
+(MAQ) Executing...
+4
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+a: 1
+b: 3
+c: -4
+negB: -3
+bSquared: 9
+fourAC: -16
+numerator: 8
+denominator: 2
+result: 4
+(MAQ) Instruction stack:
+	EMPTY

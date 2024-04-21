@@ -1,0 +1,5 @@
+(MAQ) Machine instructions:
+PUSH 10
+LOAD x
+(MAQ) Executing...
+uninitialized variable: x

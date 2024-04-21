@@ -1,0 +1,42 @@
+(MAQ) Machine instructions:
+PUSH 1
+STORE x
+LOAD x
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+ADD
+LOAD x
+MUL
+STORE x
+LOAD x
+PRINT
+PUSH 2
+LOAD x
+NEG
+SUB
+STORE x
+LOAD x
+PUSH -2
+DIV
+STORE x
+PUSH 19
+LOAD x
+ADD
+SQRT
+STORE result
+LOAD result
+PUSH 3
+MOD
+PRINT
+(MAQ) Executing...
+8
+0
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+x: -5
+result: 3
+(MAQ) Instruction stack:
+	EMPTY

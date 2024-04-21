@@ -1,0 +1,11 @@
+(MAQ) Machine instructions:
+PUSH 10
+PUSH 20
+PUSH 30
+(MAQ) Executing...
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+(MAQ) Instruction stack:
+	0: 30
+	1: 20
+	2: 10

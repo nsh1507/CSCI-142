@@ -1,0 +1,6 @@
+(MAQ) Machine instructions:
+PUSH -10
+SQRT
+PRINT
+(MAQ) Executing...
+square root of negative number

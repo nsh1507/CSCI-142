@@ -1,0 +1,51 @@
+(ARB) prefix...
+@ $ 25
+@ ! 7
+= x $ 100
+@ x
+= y ! 84
+@ y
+(ARB) infix...
+Print $25
+Print !7
+x = $100
+Print x
+y = !84
+Print y
+(ARB) interpreting program...
+5
+-7
+10
+-84
+(ARB) Symbol table:
+x: 10
+y: -84
+(ARB) compiling program to tmp/TEMP.maq...
+(MAQ) Machine instructions:
+PUSH 25
+SQRT
+PRINT
+PUSH 7
+NEG
+PRINT
+PUSH 100
+SQRT
+STORE x
+LOAD x
+PRINT
+PUSH 84
+NEG
+STORE y
+LOAD y
+PRINT
+(MAQ) Executing...
+5
+-7
+10
+-84
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+x: 10
+y: -84
+(MAQ) Instruction stack:
+	EMPTY

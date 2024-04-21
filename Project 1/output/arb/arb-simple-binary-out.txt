@@ -1,0 +1,107 @@
+(ARB) prefix...
+@ + 4 1
+@ - 3 11
+@ * 3 -9
+@ / 20 4
+@ % 93 21
+= a + 4 + 4 1
+= b - 3 - 3 -15
+= c * -2 * 6 -11
+= d % 32 % 15 4
+@ + 1 - 3 * / 4 2 % 5 6
+(ARB) infix...
+Print ( 4 + 1 )
+Print ( 3 - 11 )
+Print ( 3 * -9 )
+Print ( 20 / 4 )
+Print ( 93 % 21 )
+a = ( 4 + ( 4 + 1 ) )
+b = ( 3 - ( 3 - -15 ) )
+c = ( -2 * ( 6 * -11 ) )
+d = ( 32 % ( 15 % 4 ) )
+Print ( 1 + ( 3 - ( ( 4 / 2 ) * ( 5 % 6 ) ) ) )
+(ARB) interpreting program...
+5
+-8
+-27
+5
+9
+-6
+(ARB) Symbol table:
+a: 9
+b: -15
+c: 132
+d: 2
+(ARB) compiling program to tmp/TEMP.maq...
+(MAQ) Machine instructions:
+PUSH 4
+PUSH 1
+ADD
+PRINT
+PUSH 3
+PUSH 11
+SUB
+PRINT
+PUSH 3
+PUSH -9
+MUL
+PRINT
+PUSH 20
+PUSH 4
+DIV
+PRINT
+PUSH 93
+PUSH 21
+MOD
+PRINT
+PUSH 4
+PUSH 4
+PUSH 1
+ADD
+ADD
+STORE a
+PUSH 3
+PUSH 3
+PUSH -15
+SUB
+SUB
+STORE b
+PUSH -2
+PUSH 6
+PUSH -11
+MUL
+MUL
+STORE c
+PUSH 32
+PUSH 15
+PUSH 4
+MOD
+MOD
+STORE d
+PUSH 1
+PUSH 3
+PUSH 4
+PUSH 2
+DIV
+PUSH 5
+PUSH 6
+MOD
+MUL
+SUB
+ADD
+PRINT
+(MAQ) Executing...
+5
+-8
+-27
+5
+9
+-6
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+a: 9
+b: -15
+c: 132
+d: 2
+(MAQ) Instruction stack:
+	EMPTY

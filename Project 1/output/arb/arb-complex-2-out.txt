@@ -1,0 +1,67 @@
+(ARB) prefix...
+= x 1
+= x + x x
+= x * + x x x
+@ x
+= x - 2 ! x
+= x / x -2
+= result $ + 19 x
+@ % result 3
+(ARB) infix...
+x = 1
+x = ( x + x )
+x = ( ( x + x ) * x )
+Print x
+x = ( 2 - !x )
+x = ( x / -2 )
+result = $( 19 + x )
+Print ( result % 3 )
+(ARB) interpreting program...
+8
+0
+(ARB) Symbol table:
+x: -5
+result: 3
+(ARB) compiling program to tmp/TEMP.maq...
+(MAQ) Machine instructions:
+PUSH 1
+STORE x
+LOAD x
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+ADD
+LOAD x
+MUL
+STORE x
+LOAD x
+PRINT
+PUSH 2
+LOAD x
+NEG
+SUB
+STORE x
+LOAD x
+PUSH -2
+DIV
+STORE x
+PUSH 19
+LOAD x
+ADD
+SQRT
+STORE result
+LOAD result
+PUSH 3
+MOD
+PRINT
+(MAQ) Executing...
+8
+0
+(MAQ) Completed execution!
+(MAQ) Symbol table:
+x: -5
+result: 3
+(MAQ) Instruction stack:
+	EMPTY
